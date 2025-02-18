@@ -6,11 +6,6 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav">
-                <div className="logo-container">
-                    <Link to="/">
-                        <img src="logo.png" alt="PlantBaby Logo" className="logo-img" />
-                    </Link>
-                </div>
                 <ul className="nav-links">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/our-story">Our Story</Link></li>
