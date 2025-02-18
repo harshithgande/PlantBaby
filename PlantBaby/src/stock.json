@@ -4,91 +4,49 @@
         "name": "Fiddle Leaf Fig",
         "price": "$25",
         "stock": "Available",
-        "link": "https://yourwebsite.com/fiddle-leaf-fig"
+        "link": "https://harshithgande.github.io/PlantBaby/#/fiddle-leaf-fig"
       },
       {
         "name": "Snake Plant",
         "price": "$20",
         "stock": "Available",
-        "link": "https://yourwebsite.com/snake-plant"
+        "link": "https://harshithgande.github.io/PlantBaby/#/snake-plant"
       },
       {
         "name": "Monstera Deliciosa",
         "price": "$30",
         "stock": "Available",
-        "link": "https://yourwebsite.com/monstera-deliciosa"
+        "link": "https://harshithgande.github.io/PlantBaby/#/monstera-deliciosa"
       },
       {
         "name": "Aloe Vera",
         "price": "$15",
         "stock": "Available",
-        "link": "https://yourwebsite.com/aloe-vera"
+        "link": "https://harshithgande.github.io/PlantBaby/#/aloe-vera"
       },
       {
         "name": "Peace Lily",
         "price": "$18",
         "stock": "Available",
-        "link": "https://yourwebsite.com/peace-lily"
+        "link": "https://harshithgande.github.io/PlantBaby/#/peace-lily"
       },
       {
         "name": "Rubber Plant",
         "price": "$22",
         "stock": "Available",
-        "link": "https://yourwebsite.com/rubber-plant"
+        "link": "https://harshithgande.github.io/PlantBaby/#/rubber-plant"
       },
       {
         "name": "Pothos",
         "price": "$12",
         "stock": "Available",
-        "link": "https://yourwebsite.com/pothos"
+        "link": "https://harshithgande.github.io/PlantBaby/#/pothos"
       },
       {
         "name": "ZZ Plant",
         "price": "$25",
         "stock": "Available",
-        "link": "https://yourwebsite.com/zz-plant"
-      },
-      {
-        "name": "Dracaena",
-        "price": "$28",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/dracaena"
-      },
-      {
-        "name": "Cactus",
-        "price": "$10",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/cactus"
-      },
-      {
-        "name": "Bamboo Palm",
-        "price": "$22",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/bamboo-palm"
-      },
-      {
-        "name": "Lavender",
-        "price": "$16",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/lavender"
-      },
-      {
-        "name": "Orchid",
-        "price": "$35",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/orchid"
-      },
-      {
-        "name": "Rosemary",
-        "price": "$12",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/rosemary"
-      },
-      {
-        "name": "Fern",
-        "price": "$18",
-        "stock": "Available",
-        "link": "https://yourwebsite.com/fern"
+        "link": "https://harshithgande.github.io/PlantBaby/#/zz-plant"
       }
     ]
   }
