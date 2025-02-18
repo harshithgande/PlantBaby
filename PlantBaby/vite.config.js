@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/PlantBaby/", // Ensure correct base path for GitHub Pages
+  base: "/PlantBaby/", // Fixes asset paths for GitHub Pages
 });
