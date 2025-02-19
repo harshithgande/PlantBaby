@@ -88,26 +88,40 @@ body {
 }
 
 /* Hero Section */
+/* Ensure Hero Section Fills the Screen */
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(to bottom, #e8f5e9, #ffffff);
     position: relative;
+    width: 100%;
+    height: 60vh; /* Increase height to fill more space */
+    min-height: 400px; /* Ensure it doesn't get too small */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
+/* Hero Image Styling */
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the space while maintaining aspect ratio */
+    display: block;
+}
+
+/* Responsive Hero Title */
 .hero-title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* Adjust color as needed */
-    background-color: rgba(255, 252, 252, 0.8); /* Slight transparency for readability */
+    color: white;
+    background-color: rgba(255, 252, 252, 0.8); /* Transparent background for readability */
     padding: 10px 20px;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     
-    /* Responsive font size */
-    font-size: clamp(2rem, 5vw, 5rem); 
+    /* Dynamically responsive font size */
+    font-size: clamp(1.5rem, 4vw, 5rem);
     text-align: center;
     width: 90%;
     max-width: 800px;
@@ -115,25 +129,25 @@ body {
 
 /* Ensure proper scaling on smaller screens */
 @media (max-width: 768px) {
+    .hero {
+        height: 50vh; /* Reduce height slightly on smaller screens */
+    }
+
     .hero-title {
-        font-size: 3rem;
+        font-size: clamp(1.2rem, 3.5vw, 3rem); /* Reduce size on tablets */
         padding: 8px 16px;
     }
 }
 
 @media (max-width: 480px) {
+    .hero {
+        height: 40vh; /* Further reduce height on mobile */
+    }
+
     .hero-title {
-        font-size: 2rem;
+        font-size: clamp(1rem, 3vw, 2.5rem); /* Further reduce size on mobile */
         padding: 6px 12px;
     }
-}
-
-.hero-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    aspect-ratio: 16/9; /* Adjust the aspect ratio as needed */
-    display: block;
 }
 
 .hero h1 {
